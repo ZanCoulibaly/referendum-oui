@@ -153,7 +153,7 @@
     document.querySelector('.share_facebook').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
-        var shareUrl = "https://www.facebook.com/feeds?" + encodeURIComponent(url);
+        var shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
         popupCenter(shareUrl, "Partager sur facebook");
     });
 
