@@ -157,19 +157,19 @@
         popupCenter(shareUrl, "Partager sur facebook");
     });
 
-    document.querySelector('.share_gplus').addEventListener('click', function(e){
-        e.preventDefault();
-        var url = this.getAttribute('data-url');
-        var shareUrl = "https://plus.google.com/share?url=" + encodeURIComponent(url);
-        popupCenter(shareUrl, "Partager sur Google+");
-    });
+    // document.querySelector('.share_gplus').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     var url = this.getAttribute('data-url');
+    //     var shareUrl = "https://plus.google.com/share?url=" + encodeURIComponent(url);
+    //     popupCenter(shareUrl, "Partager sur Google+");
+    // });
 
-    document.querySelector('.share_linkedin').addEventListener('click', function(e){
-        e.preventDefault();
-        var url = this.getAttribute('data-url');
-        var shareUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url);
-        popupCenter(shareUrl, "Partager sur Linkedin");
-    });
+    // document.querySelector('.share_linkedin').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     var url = this.getAttribute('data-url');
+    //     var shareUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url);
+    //     popupCenter(shareUrl, "Partager sur Linkedin");
+    // });
 
 })();
 
